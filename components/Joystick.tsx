@@ -15,7 +15,6 @@ export default function Joystick() {
   };
 
   return (
-    // Use a simple View container so the Joystick can be placed inside other layouts
     <View style={styles.joystickContainer}>
       <GestureHandlerRootView style={{ flex: 1 }}>
         <AxisPad
